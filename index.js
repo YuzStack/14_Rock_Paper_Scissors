@@ -1,7 +1,7 @@
+// console.log("Hello, YuzStack!");
+
 let computerScore = 0;
 let humanScore = 0;
-
-// console.log("Hello, YuzStack!");
 
 function getComputerChoice() {
   let computerChoice = Math.floor(Math.random() * 3); // Randomly returns either 0, 1 or 2
@@ -67,4 +67,4 @@ function playGame() {
   }
 }
 
-playGame();
+// playGame();
