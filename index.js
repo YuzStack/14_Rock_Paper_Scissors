@@ -1,5 +1,5 @@
-let computerScore = 0
-let humanScore = 0
+let computerScore = 0;
+let humanScore = 0;
 
 // console.log("Hello, YuzStack!");
 
@@ -51,6 +51,7 @@ function playGame() {
   for (let i = 1; i <= 5; i++) {
     const humanSelection = getHumanChoice();
     const computerSelection = getComputerChoice();
+
     playRound(humanSelection, computerSelection);
     console.log(
       `Score after round ${i}: Human ${humanScore}, Computer ${computerScore}`
@@ -66,7 +67,4 @@ function playGame() {
   }
 }
 
-
-playGame(
-    
-)
+playGame();
