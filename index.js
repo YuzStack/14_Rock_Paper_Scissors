@@ -47,7 +47,7 @@ function playRound(humanChoice, computerChoice) {
   }
 }
 
-function playGame() {
+/* function playGame() {
   for (let i = 1; i <= 5; i++) {
     const humanSelection = getHumanChoice();
     const computerSelection = getComputerChoice();
@@ -65,6 +65,27 @@ function playGame() {
   } else {
     console.log("It's a draw overall!");
   }
-}
+} */
 
 // playGame();
+
+
+const rockButton = document.querySelector("#rock");
+const paperButton = document.querySelector("#paper");
+const scissorsButton = document.querySelector("#scissors");
+
+rockButton.addEventListener("click", () => {
+  const computerSelection = getComputerChoice();
+  playRound("Rock", computerSelection);
+});
+paperButton.addEventListener("click", () => {
+  const computerSelection = getComputerChoice();
+  playRound("Paper", computerSelection);
+});
+scissorsButton.addEventListener("click", () => {
+  const computerSelection = getComputerChoice();
+  playRound("Scissors", computerSelection);
+});
+
+const resultsDiv = document.querySelector("#results");
+
