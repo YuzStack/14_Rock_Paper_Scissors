@@ -10,7 +10,6 @@ body {
   height: 100vh;
   justify-content: center;
   margin-top: 2rem;
-  /* align-items: center; */
 }
 
 .buttons-container {
@@ -29,7 +28,6 @@ button {
   font-size: 1.5rem;
   border-radius: 10px;
   cursor: pointer;
-  transform: translateY(0);
   transition: transform 0.2s;
 }
 
